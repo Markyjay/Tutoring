@@ -133,6 +133,16 @@ menu a:hover {
     text-align: center;
 }
 
+#math-image2 {
+    height: 500px;
+    width: 1000px;
+    background-image: url('../images/math\ pic\ what\ is\ math\ smithsonian\ mag.jpg');
+    background-repeat: no-repeat;
+    
+    float:left
+
+}
+
 #about-heading {
     font-size: 150%;
     color: #fff;
