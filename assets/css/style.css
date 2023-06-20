@@ -27,8 +27,12 @@ h1, h2 {
 
 /* Nav Links */
 #menu { 
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-
 }
