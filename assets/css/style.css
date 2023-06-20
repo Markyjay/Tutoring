@@ -102,6 +102,21 @@ menu a:hover {
 
     
 }
+
+/* About Section */
+
+#about {
+    background-color: #f04e4e;
+    padding: 20px;
+    text-align: center;
+}
+
+#about-heading {
+    font-size: 150%;
+    color: #fff;
+
+}
+
 /* Contact section */
 
 #contact {
