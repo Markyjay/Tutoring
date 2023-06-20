@@ -102,3 +102,61 @@ menu a:hover {
 
     
 }
+/* Contact section */
+
+#contact {
+    background-color: #38e764;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #2b84d3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .tutor-1 {
+    flex-basis: 50%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .tutor-1 img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .tutor-1 .social-icons {
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+  
+  .tutor-1 .social-icons:hover {
+    scale: 1.2;
+  }
+  
+  .tutor-1 .social-icons a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  #footer-cp {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+  }
