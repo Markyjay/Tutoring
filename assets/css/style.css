@@ -53,3 +53,37 @@ menu a:hover {
 .active {
     border-bottom: 2px solid #3a3a3a;
 }
+
+/* Math image */
+
+#math-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#math-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/math\ logo\ 4\ evoke\ learning.jpg) no-repeat center center;
+    size: 500%;
+
+    /* animation zoom effect on loading page*/
+    animation-name: math-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates a level of zoom for math-image */
+
+@keyframes math-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+    
+}
