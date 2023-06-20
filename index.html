@@ -24,18 +24,19 @@
         </div>
         <div>
             <a href="index.html">
-                
+
             </a>
             <nav id="menu">
                 <ul>
                     <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
                         <a href="index.html" class="active">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
                     </li>
                 </ul>
 
@@ -43,19 +44,26 @@
         </div>
         <header>
             <section id="math-outer">
-               <div id="math-image"></div>
-               <div id="float-text">
-                <h2>Do you need help with your math curriculum?</h2>
-                <h3>Look no further</h3>
-               </div>
+                <div id="math-image"></div>
+                <div id="float-text">
+                    <h2>Do you need help with your math curriculum?</h2>
+                    <h3>Look no further</h3>
+                </div>
             </section>
             <section id="about">
-                <div id="math-image2"></div>
-                <h1 id="about-heading">Struggling?</h1>
-                <p>If you are struggling to understand the math curriculum 
-                    in your school and you have exams coming that you are 
-                    worried about then contact us and you will be paired 
-                    with an expert</p>
+                <div id="left-about" class="math-image2">
+                    <div class="left-about-heading">
+                        <h1>Need Help?</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="right-about-heading">
+                        <h1 id="right-about">Struggling?</h1>
+                        <p>If you are struggling to understand the math curriculum
+                            in your school and you have exams coming that you are
+                            worried about then contact us and you will be paired
+                            with an expert</p>
+                </div>
             </section>
             <section class="contact">
                 <h1>Access the contact page here and fill out your details.</h1>
@@ -64,17 +72,17 @@
             <footer class="footer">
                 <h3 style="color: #ffffff; font-size: 4rem;">Find your experts</h3>
                 <div>
-                   <div class="tutor-1">
-                    <img src="{% static 'images/mark.jpeg'%}" alt="Mark avatar image">
-                    <div class="social-icons">
-                      <span style="color: #ffffff; font-size: 2rem;">Mark</span>
-                      <a href="https://github.com/Markyjay" target="_blank" aria-label="footer link to Mark github profile"><i
-                          class="fab fa-github"></i></a>
-                      <a href="https://www.linkedin.com/" target="_blank"
-                        aria-label="footer link to Mark linkedin profile"><i class="fab fa-linkedin"></i></a>
+                    <div class="tutor-1">
+                        <img src="{% static 'images/mark.jpeg'%}" alt="Mark avatar image">
+                        <div class="social-icons">
+                            <span style="color: #ffffff; font-size: 2rem;">Mark</span>
+                            <a href="https://github.com/Markyjay" target="_blank"
+                                aria-label="footer link to Mark github profile"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"
+                                aria-label="footer link to Mark linkedin profile"><i class="fab fa-linkedin"></i></a>
+                        </div>
                     </div>
-                    </div>
-                  </div>
+                </div>
             </footer>
 
 </body>

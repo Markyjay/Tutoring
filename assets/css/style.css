@@ -1,7 +1,7 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     border: none;
 }
 
@@ -133,19 +133,39 @@ menu a:hover {
     text-align: center;
 }
 
-#math-image2 {
-    height: 500px;
-    width: 1000px;
-    background-image: url('../images/math\ pic\ what\ is\ math\ smithsonian\ mag.jpg');
-    background-repeat: no-repeat;
+#left-about {
+    .math-image2 {
+        height: 500px;
+        width: 1000px;
+        background-image: url('../images/math\ pic\ what\ is\ math\ smithsonian\ mag.jpg');
+        background-repeat: no-repeat;
+        
+        float:left
     
-    float:left
+    }
 
 }
 
-#about-heading {
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#right-about {
     font-size: 150%;
     color: #fff;
+
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 
 }
 
