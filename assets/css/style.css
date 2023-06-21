@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Indie-Flower, Oswald, sans-serif;
+    font-family: 'Indie-Flower', Oswald, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -14,7 +14,7 @@ body {
 /* Headings & Logo */
 
 h1, h2 {
-    font-family: Indie-Flower, sans-serif;
+    font-family: 'Indie-Flower', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #252525
@@ -26,14 +26,14 @@ h1, h2 {
     
     background-image: url('../images/Pi.JPG');
     background-position: left;
-    background-size: 20%;
+    background-size: 4%;
     background-repeat: no-repeat;
     
 }
 
 #logo {
     float: left;
-    font-size: 150%;
+    font-size: 100%;
     margin-left: 30px;
 }
 
@@ -41,6 +41,7 @@ h1, h2 {
 #menu { 
     font-size: 100%;
     letter-spacing: 3px;
+    text-align: justify;
 }
 
 #menu, #logo {
@@ -107,7 +108,7 @@ menu a:hover {
 
 #float-text {
     font-size: 130%;
-    font-family: indie-flower, sans-serif;
+    font-family: 'Indie-flower', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 
